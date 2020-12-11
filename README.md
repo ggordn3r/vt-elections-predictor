@@ -51,3 +51,14 @@ We are framing our project as a classification problem, with the actual election
 
 We will evaluate the models with typical metrics (accuracy, precision, recall, f-measure) across all counties. In addition to our internal comparisons between models, we will compare our results with the publicly available outputs of the most prominent conventional model of political opinion and activity: FiveThirtyEight.
 
+### COVID- DATA PYTHON RUN
+
+In order to run the COVID-19 based prediction, run COVID-data.ipynb. You should run all the sections of importing related dataframes from the beginning of the code. Then you can run either section of model training or all of them. For getting the US map, you need to run the last two sections of the file.
+
+### CIVIL-UNREST DATA PYTHON RUN
+
+In order to run the Civil-unrest based prediction, run civil_unrest_data.ipynb. You should run all the sections of importing related dataframes from the beginning of the code. Then you can run either section of model training or all of them. For getting the US map, you need to run the last section of the file.
+
+### Combined Data of COVID and civil unrest
+
+In order to run the combined data, run the combined.ipynb. The procedure is the same as the COVID-data.ipynb and civil_unrest_data.ipynb files.
